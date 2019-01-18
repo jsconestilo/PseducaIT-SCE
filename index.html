@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+	<meta charset="utf-8"/>
+	<title>Sistema de Calificaciones</title>
+	<meta name="description" content="Sistema de Control Escolar del Centro de Bachillerato José Vasconcelos."/>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+	<link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png" />
+	<link rel="apple-touch-icon" sizes="144x144" href="apple-touch-icon-144x144.png" />
+	<link rel="author" type="text/plain" href="humans.txt" />
+	<link rel="stylesheet" href="css/estilos.css">
+	<script src="js/SCE_Pseduca.js"></script>
+	<script type="text/javascript" src="js/modernizr.js"></script>
+</head>
+<body>
+	<header>
+		<figure>
+			<img src="img/LogotipoInstitucional.png">
+			<figcaption>
+				<h1>Centro de Bachillerato "José Vasconcelos"</h1>
+				<h2>Sistema de Control Escolar</h2>
+			</figcaption>
+		</figure>
+	</header>
+	<form name="frm_datosAlumno">
+		<div>
+			<label for="credencial">Credencial:</label>
+			<input name="credencial" type="text">
+		</div>
+		<div>
+			<label for="nombre">Nombre del Alumno:</label>
+			<input name="nombre" type="text">
+		</div>
+		<div>
+			<label>Modalidad de Semestre:</label>
+			<input name="tipoSemestre" type="radio" value="Semestre_Impar">Impar
+			<input name="tipoSemestre" type="radio" value="Semestre_Par">Par
+		</div>
+		<div>
+			<label>Semestre Cursado:</label>
+			<select name="semestre" disabled="true">
+			</select>
+		</div>
+		<input type="button" id="generador" value="General Esquema">
+	</form>
+	<section id="tabla">
+	</section>
+	<footer>
+		<address>
+			Centro de Bachillerato José Vasconcelos. &copy;2013 Todos los derechos reservados<br/>
+			Departamento de Control Escolar Instituciones Incorporadas<br/>
+			Universidad Autónoma del Estado de México<br/>
+			Actualización: 7 de Septiembre de 2013
+		</address>
+	</footer>
+</body>
+</html>
