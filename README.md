@@ -12,6 +12,9 @@ El **Sistema de Control Escolar** del Centro de Bachillerato José Vasconcelos S
 | CSS-3                  							|         			                 |
 | JavaScript Vanilla (No Framewoks / No Librerías)   |                                   |
 
+### Enlace Proyecto en Producción
+
+[pseduca-sce.xpsmart.com.mx](http://pseduca-sce.xpsmart.com.mx/)
 
 ### Descripción de las Secciones del Sitio
 
